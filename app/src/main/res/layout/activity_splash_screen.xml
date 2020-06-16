@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SplashScreen"
+    android:background="#771c7f"
+   >
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/splash"
+        android:layout_width="309dp"
+        android:layout_height="245dp"
+
+        android:layout_centerInParent="true"
+
+        />
+</RelativeLayout>

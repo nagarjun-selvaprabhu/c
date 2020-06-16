@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+    <FrameLayout tools:context=".MainActivity"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/preview_layout"/>
+
+    <!-- Where is the CameraPreview object? It's added dynamicallyfrom the code (see MainActivity's onCreate() method) onlywhen the camera is enabled -->
+
+
+    <!-- the snap button -->
+
+
+
+</FrameLayout>
